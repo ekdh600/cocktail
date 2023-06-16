@@ -1,3 +1,3 @@
 FROM nginx
 
-CMD echo "git-test-v1" > /usr/share/nginx/html/index.html
+RUN echo "git-test-v1" > /usr/share/nginx/html/index.html
